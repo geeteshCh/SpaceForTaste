@@ -15,3 +15,5 @@ To run the server
 ```bash
 node app.js
 ```
+### Link to website
+https://space-for-taste.herokuapp.com/
