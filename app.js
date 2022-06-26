@@ -31,10 +31,10 @@ app.post("/",(req,res)=>{
         ]
     }
     const jsonData= JSON.stringify(data)
-    const url="https://us6.api.mailchimp.com/3.0/lists/602c17862c"
+    const url="https://us6.api.mailchimp.com/3.0/lists/d6b6868598"
     const options={
         method : "POST",
-        auth : "geeteshCh:b85d1db33ebf21be70a345565f6b4d81-us6"
+        auth : "geeteshCh:cd451b8a14aa557d8c0fb293923d5449-us6"
     }
     const request= https.request(url,options,function(response){
         if(response.statusCode===200){
@@ -61,5 +61,5 @@ app.post('/failure',function(req,res){
 app.listen(process.env.PORT || 3000,()=>{
     console.log("listening on port 3000....")
 })
-//1bcb8cae253c6cda0673622aa2e41b0e-us6
-// audience id:602c17862c
+//cd451b8a14aa557d8c0fb293923d5449-us6
+// audience id:d6b6868598
