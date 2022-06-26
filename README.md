@@ -1,5 +1,5 @@
 # Space For Taste
-Space for taste is a newsletter signup website which receives user's data, email and adds them to the subscriber list.
+Space for taste is a newsletter signup website which receives user's data including email and adds them to the subscriber list.
 
 ## Requirements
 * node.js
