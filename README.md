@@ -15,4 +15,5 @@ To run the server
 ```bash
 node app.js
 ```
+Server runs on port 3000
 
